@@ -12,6 +12,12 @@ class HealthCardIDTest {
         assertNotEquals("02", healthCardID.getPersonalID());
     }
 
+    /*
+    LA PROFE VOL POSAR :
+    Para el caso de la clase
+HealthCardID, podemos definir las dos situaciones siguientes: que al constructor le llegue
+null (objeto sin instanciar), y también un código de identificación mal formado.
+     */
     @Test
     void exceptions() {
 
